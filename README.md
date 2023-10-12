@@ -1,1 +1,6 @@
-# tip_savvy_js_project
+# Tip Savvy
+
+### Technologies
+* JavaScript
+* HTML
+* CSS

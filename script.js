@@ -1,5 +1,5 @@
 "use strict";
-/* JS for Light & Dark Toggle  */
+/* JS for Light & Dark Toggle */
 const toggleSwitch = document.getElementById("toggle");
 const body = document.body;
 
@@ -10,7 +10,7 @@ toggleSwitch.addEventListener("change", () => {
     body.style.setProperty("--text-color", "#fff");
   } else {
     // Light mode
-    body.style.setProperty("--background-color", "#fff");
+    body.style.setProperty("--background-color", "#fffff0");
     body.style.setProperty("--text-color", "#111");
   }
 });
