@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
 /* CSS For Light & Dark Toggle  */
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", serif;
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
@@ -9,16 +11,16 @@ body {
   padding: 0;
 }
 
+p1{
+  font-size: 12px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 60px;
-}
-
-h1 {
-  margin-bottom: 20px;
 }
 
 .switch {
@@ -67,3 +69,45 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+
+@media (max-width: 320px) {
+  /* Adjust styles for screens with a width less than or equal to 300px */
+  h1 {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+
+  p1 {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+
+  font-family {
+    font-family: "Libre Baskerville", serif;
+  }
+}
+
+/* Bill Input Section CSS */
+
+.bill-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+}
+
+#bill {
+  width: 200px; /* Adjust the width as needed */
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#bill::placeholder {
+  text-align: center;
+}
+
+
