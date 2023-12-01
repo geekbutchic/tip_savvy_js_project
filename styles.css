@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-p1{
+p1 {
   font-size: 12px;
 }
 
@@ -21,6 +21,7 @@ p1{
   align-items: center;
   justify-content: center;
   height: 60px;
+  background-color: black;
 }
 
 .switch {
@@ -110,4 +111,35 @@ label {
   text-align: center;
 }
 
+#tip {
+  width: 200px; /* Adjust the width as needed */
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
 
+#tip::placeholder {
+  text-align: center;
+}
+
+#people {
+  width: 200px; /* Adjust the width as needed */
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#people::placeholder {
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+}
